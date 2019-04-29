@@ -1,0 +1,73 @@
+.navbar.main-nvbar {
+  padding: 0rem 1rem;
+}
+
+.navbar.main-nvbar .nav-item.active {
+  background-color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar.main-nvbar .nav-item.active .nav-link {
+  color: #008fd5;
+}
+
+.navbar.main-nvbar .nav-item .nav-link {
+  font-size: 12px;
+  padding: 15px 11px;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar.main-nvbar .nav-item .nav-link:hover {
+  background-color: #fff;
+  color: #008fd5;
+}
+
+.navbar.main-nvbar .navbar-right .nav-item .nav-link {
+  padding: 15px 8px;
+}
+
+.bg-primary {
+  background-color: #008fd5 !important;
+}
+
+.navbar .navbar-brand span {
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar .nav-item .nav-link i {
+  vertical-align: middle;
+}
+
+.navbar .navbar-right .dropdown-toggle::after {
+  content: "";
+  border: none;
+}
+
+.navbar-right .nav-link {
+  color: #fff;
+}
+
+.navbar .navbar-right .custom-select {
+  background: transparent;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  padding-top: .45rem !important;
+}
+
+.navbar .navbar-right .custom-select:focus {
+  box-shadow: none;
+}
+
+.navbar .navbar-right .custom-select-sm {
+  height: calc(1.5em + .5rem + 6px);
+}
